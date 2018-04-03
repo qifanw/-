@@ -13,6 +13,8 @@
 		003B72AC20732D35009F4D42 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 003B72AB20732D35009F4D42 /* Assets.xcassets */; };
 		003B72AF20732D35009F4D42 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 003B72AD20732D35009F4D42 /* LaunchScreen.storyboard */; };
 		003B72B220732D35009F4D42 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 003B72B120732D35009F4D42 /* main.m */; };
+		003B72BA20732D6A009F4D42 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 003B72B920732D6A009F4D42 /* Person.m */; };
+		003B72BD20732D96009F4D42 /* Animal.m in Sources */ = {isa = PBXBuildFile; fileRef = 003B72BC20732D96009F4D42 /* Animal.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,10 @@
 		003B72AE20732D35009F4D42 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		003B72B020732D35009F4D42 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		003B72B120732D35009F4D42 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		003B72B820732D6A009F4D42 /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		003B72B920732D6A009F4D42 /* Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		003B72BB20732D96009F4D42 /* Animal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Animal.h; sourceTree = "<group>"; };
+		003B72BC20732D96009F4D42 /* Animal.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Animal.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +66,10 @@
 			children = (
 				003B72A220732D35009F4D42 /* AppDelegate.h */,
 				003B72A320732D35009F4D42 /* AppDelegate.m */,
+				003B72B820732D6A009F4D42 /* Person.h */,
+				003B72B920732D6A009F4D42 /* Person.m */,
+				003B72BB20732D96009F4D42 /* Animal.h */,
+				003B72BC20732D96009F4D42 /* Animal.m */,
 				003B72A520732D35009F4D42 /* ViewController.h */,
 				003B72A620732D35009F4D42 /* ViewController.m */,
 				003B72A820732D35009F4D42 /* Main.storyboard */,
@@ -143,7 +153,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				003B72A720732D35009F4D42 /* ViewController.m in Sources */,
+				003B72BD20732D96009F4D42 /* Animal.m in Sources */,
 				003B72B220732D35009F4D42 /* main.m in Sources */,
+				003B72BA20732D6A009F4D42 /* Person.m in Sources */,
 				003B72A420732D35009F4D42 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
